@@ -20,3 +20,32 @@
 .App-link {
   color: #09d3ac;
 }
+
+.rotate90deg {
+    transform:rotate(90deg);
+-ms-transform:rotate(90deg); /* IE 9 */
+-moz-transform:rotate(90deg); /* Firefox */
+-webkit-transform:rotate(90deg); /* Safari and Chrome */
+-o-transform:rotate(90deg); /* Opera */margin-top:100px;
+    margin-bottom: 100px;
+}
+
+.jumbotron p {
+    text-align: left;
+    font-size: 90%;
+}
+.jumbotron h1 {
+    text-align: left;
+    font-size: 250%;
+}
+
+h1 {
+
+}
+
+
+body {
+    margin: 0;
+    background-image: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #eee 100%);
+}
+
